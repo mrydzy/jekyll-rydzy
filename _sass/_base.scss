@@ -14,8 +14,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
+    font-family: $base-font-family !important;
+    font-weight: $base-font-weight !important;
+    font-size: $base-font-size !important;
+    color: $text-color !important;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -43,7 +45,7 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
+    max-width: 100% !important;
     vertical-align: middle;
 }
 
@@ -110,11 +112,16 @@ blockquote {
     border-width: 1px 0;
     border-left: 0 !important;
     padding: 30px !important;
-    font-size: 1.3em !important;
+    font-size: 1.1em !important;
     line-height: 27px;
     font-weight: 200;
     letter-spacing: 0px;
     font-style: italic;
+    text-align: center;
+    p {
+        max-width: 800px;
+        margin: 0 auto 10px auto;
+    }
 
     > :last-child {
         margin-bottom: 0;
@@ -159,8 +166,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: 80%;
-    max-width:         80%;
+    width: 80%;
+    max-width: $content-width;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
