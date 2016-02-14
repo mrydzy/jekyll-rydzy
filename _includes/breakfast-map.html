@@ -1,5 +1,5 @@
 <div style="padding-top:80px">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6NJEsNX4YCcFryorJjbHQymv6IrMn1fY&sensor=false"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6NJEsNX4YCcFryorJjbHQymv6IrMn1fY"
         type="text/javascript">
     </script>
     <!--<script src="http://maps.google.com/maps/api/js?sensor=true"></script>-->
@@ -62,7 +62,6 @@
                 var id = $(this).data('id');
                 var map = window._myMap;
                 var markerInstance = map.markers[id];
-                console.log('marker: ', markerInstance);
                 markerInstance.infoWindow.open(map.map, markerInstance);
                 map.setCenter(markerInstance.position.lat(), markerInstance.position.lng())
                 openInfoWindow = markerInstance.infoWindow
@@ -110,7 +109,7 @@
                     "lat": 50.0514727,
                     "lng": 19.9455647,
                     "food": "Letnie jajka w koszulkach ze szparagami",
-                    "description":"Do Novej nie mogłam się przez długi czas przekonać - wydawała mi się wielkim miejscem dla burżuji bez fantazji. Znajomi mnie tam kiedyś wyciągnęli i od tego czasu nawet lubię to miejsce - przyszedł więc i czas na śniadanie. Jadłam jajka w koszulkach podane na pełnoziarnistej bułce ze szpinakiem, szparagami grillowanymi w szynce parmeńskiej i sosem holenderskim. Szynki parmeńskiej niestety było tylko symbolicznie, za to sos holenderski - pychota! Marek jadł jakąś kanapkę, jednak była na tyle nie zapadająca w pamięć, że nie możemy sobie jej przypomnieć."},
+                    "description":"Do Novej nie mogłam się przez długi czas przekonać - wydawała mi się wielkim miejscem dla burżujów bez fantazji. Znajomi mnie tam kiedyś wyciągnęli i od tego czasu nawet lubię to miejsce - przyszedł więc i czas na śniadanie. Jadłam jajka w koszulkach podane na pełnoziarnistej bułce ze szpinakiem, szparagami grillowanymi w szynce parmeńskiej i sosem holenderskim. Szynki parmeńskiej niestety było tylko symbolicznie, za to sos holenderski - pychota! Marek jadł jakąś kanapkę, jednak była na tyle nie zapadająca w pamięć, że nie możemy sobie jej przypomnieć."},
                 { "id":"welldone",
                     "name":"Well done",
                     "address": "ul.Mostowa 2",
@@ -440,7 +439,7 @@
         </div>
     </script>
     <div class="row">
-        <div id="basic_map" class="map col-md-6"></div>
+        <div id="basic_map" class="map col-md-7"></div>
 
         <div class="links col-md-2">
             <strong>Ulubione</strong><br/>

@@ -189,6 +189,11 @@
     img {
         max-height: 10em;
     }
+    &.photo-bg {
+        background-image: url('/assets/photos/home.jpg');
+    }
+
+
 }
 
 .post-list {

@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "Śniadania"
+title:  "Śniadanie w Krakowie"
 date:   2015-10-01 17:29:03 +0100
 categories: luzne
-short_desc: "Gdzie na śniadanie w Krakowie?"
 
 external_url: "sniadanie-w-krakowie/"
 external_site: "internal"
-image: "/assets/photos/home.jpg"
+image: "/assets/images/breakfast.png"
 alt: "Gdzie na śniadanie w Krakowie"
-short_desc: "Gdzie iść na śniadanie w Krakowie"
+short_desc: "Czyli co zrobić gdy lodówka jest pusta"
 ---
