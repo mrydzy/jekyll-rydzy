@@ -1,16 +1,16 @@
 /*
-Error: Invalid CSS after "@charset "utf-8"": expected "{", was ";"
+Error: Invalid CSS after "@import ": expected "{", was "url("https://fo..."
         on line 4 of main.scss
 
 1: ---
 2: # Only the main Sass file needs front matter (the dashes are enough)
 3: ---
-4: @charset "utf-8";
-5: @import url("https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext");
-6: @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
-7: 
-8: // Our variables
-9: $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+4: @import url("https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext");
+5: @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+6: 
+7: // Our variables
+8: $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+9: $base-font-size:   1.75em;
 
 Backtrace:
 main.scss:4
@@ -42,4 +42,4 @@ main.scss:4
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"@charset \"utf-8\"\": expected \"{\", was \";\"\A         on line 4 of main.scss\A \A 1: ---\A 2: # Only the main Sass file needs front matter (the dashes are enough)\A 3: ---\A 4: @charset \"utf-8\";\A 5: @import url(\"https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext\");\A 6: @import url(\"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\");\A 7: \A 8: // Our variables\A 9: $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;"; }
+  content: "Error: Invalid CSS after \"@import \": expected \"{\", was \"url(\"https://fo...\"\A         on line 4 of main.scss\A \A 1: ---\A 2: # Only the main Sass file needs front matter (the dashes are enough)\A 3: ---\A 4: @import url(\"https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext\");\A 5: @import url(\"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\");\A 6: \A 7: // Our variables\A 8: $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;\A 9: $base-font-size:   1.75em;"; }
