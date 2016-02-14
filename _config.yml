@@ -9,6 +9,7 @@
 title: Maria Rydzy
 email: moje_imie@moje_nazwisko.pl
 description: > # this means to ignore newlines until "baseurl:"
+Prywatna strona Marii Rydzy. Społeczeństwo, technologia, edukacja, śniadania w Krakowie.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site
 
