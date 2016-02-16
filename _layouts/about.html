@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<div class="page-content">
+    <div class="wrapper">
+        <div>
+            <div class="about-image">
+                <span class="image fit"><img src="{{ site.url }}/assets/images/girl.png" alt="Maria Rydzy"/></span>
+            </div>
+            <div class="about-text" itemscope itemtype="http://schema.org/Person">
+               {{content}}
+
+                Kontakt to: <span itemprop="email">[moje imie]@[moje nazwisko].pl</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>

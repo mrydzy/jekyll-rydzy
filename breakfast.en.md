@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Śniadania
+title: Breakfast
 permalink: /sniadanie-w-krakowie/
+lang: en
 ---
 
 > I can't think of anything more noble to go to war over, than bacon and eggs.

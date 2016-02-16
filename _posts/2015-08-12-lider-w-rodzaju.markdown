@@ -1,4 +1,5 @@
 ---
+lang: pl
 layout: post
 title:  "Lider w rodzaju żeńskim"
 date:   2015-08-12 17:29:03 +0100

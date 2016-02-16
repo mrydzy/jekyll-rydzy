@@ -3,18 +3,30 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
+    {% for tongue in site.languages %}
+    <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %}" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> |
+    {% endfor %}
     <nav class="site-nav">
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
+
+        {% assign pages_list = site.pages %}
+          {% assign written = "" | split: '' %}
+            {% for node in pages_list %}
+              {% if written contains node.title %}
+                {% continue %}
+              {% endif %}
+            {% if node.title != null %}
+              {% if node.layout == "page" or node.layout == "about" %}
+                <a class="page-link" href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a>
+              {% endif %}
+              {% assign written = written | push: node.title %}
+            {% endif %}
         {% endfor %}
       </div>
     </nav>
-
+    act
+{{site.active_lang}}
   </div>
 
 </header>
