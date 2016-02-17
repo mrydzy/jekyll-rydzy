@@ -12,8 +12,8 @@
         {% endif %}
       {% endfor %}
       {% for tongue in site.languages %}
-        <a {% if tongue == site.active_lang %}class="page-lang-active"{% else %}class="page-lang" {% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> |
-      {% endfor %}
+      | <a {% if tongue == site.active_lang %}class="page-lang-active"{% else %}class="page-lang" {% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>
+      {% endfor %}|
     </div>
   </nav>
 

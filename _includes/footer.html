@@ -6,7 +6,7 @@
         <address>
           <ul class="contact-list">
             <li>{{ site.title }}</li>
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><a href="mailto:{{ site.email[site.active_lang] }}">{{site.email[site.active_lang]}}</a></li>
           </ul>
         </address>
       </div>
