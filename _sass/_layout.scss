@@ -33,6 +33,16 @@
         display: none;
     }
 
+    .page-lang {
+        line-height: $base-line-height;
+        color: $text-color-light;
+    }
+
+    .page-lang-active {
+        color: $grey-color-light;
+        line-height: $base-line-height;
+    }
+
     .page-link {
         color: $text-color-light;
         line-height: $base-line-height;

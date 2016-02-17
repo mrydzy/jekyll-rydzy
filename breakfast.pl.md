@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Breakfast
+title: Śniadanie w Krakowie
 permalink: /sniadanie-w-krakowie/
 lang: pl
 ---

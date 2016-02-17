@@ -2,31 +2,21 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    {% for tongue in site.languages %}
-    <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %}" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> |
-    {% endfor %}
-    <nav class="site-nav">
 
-      <div class="trigger">
+  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <nav class="site-nav">
+    <div class="trigger">
+      {% for node in site.pages %}
+        {% if node.lang contains site.active_lang %}
+          <a class="page-link" href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endfor %}
+      {% for tongue in site.languages %}
+        <a {% if tongue == site.active_lang %}class="page-lang-active"{% else %}class="page-lang" {% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> |
+      {% endfor %}
+    </div>
+  </nav>
 
-        {% assign pages_list = site.pages %}
-          {% assign written = "" | split: '' %}
-            {% for node in pages_list %}
-              {% if written contains node.title %}
-                {% continue %}
-              {% endif %}
-            {% if node.title != null %}
-              {% if node.layout == "page" or node.layout == "about" %}
-                <a class="page-link" href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a>
-              {% endif %}
-              {% assign written = written | push: node.title %}
-            {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-    act
-{{site.active_lang}}
   </div>
 
 </header>
