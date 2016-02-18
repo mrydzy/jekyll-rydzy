@@ -18,4 +18,4 @@ Encouraged by the questions 'where to go for Breakfast' in addition 'best around
 I've decided to create small map for all fellow breakfast lovers.
 
 
-{% include breakfast-map-en.html %}
+{% include breakfast-map.html %}

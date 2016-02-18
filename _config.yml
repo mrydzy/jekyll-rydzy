@@ -7,9 +7,52 @@
 
 # Site settings
 title: Maria Rydzy
+
+#########################footer########################
 email:
   pl: "moje_imie@moje_nazwisko.pl"
-  en: "my_name@my_family_name.pl"
+  en: "my_name@family_name.pl"
+
+blog:
+  pl: "Przygoda 2012"
+  en: "Gap Year"
+
+github:
+  pl: "Kod tej strony [jekyll]"
+  en: "Source code [jekyll]"
+
+#########################food########################
+
+foodDataFile:
+  pl: "foodDataFile.js"
+  en: "foodDataFile-en.js"
+
+#
+shortcut:
+  pl: "Streszczenie dla głodomorów:"
+  en: "Shortcut:"
+
+best:
+  pl: "Ulubione"
+  en: "The best"
+
+biggest:
+  pl: "Na gastro"
+  en: "In case of munchies"
+
+served:
+  pl: "Najładniej podane"
+  en: "Best served"
+
+homely:
+  pl: "Jak u babci"
+  en: "Most cosy"
+
+nearBy:
+  pl: "Znajdź w okolicy"
+  en: "Find nearby"
+
+##########################################################
 
 description: > # this means to ignore newlines until "baseurl:"
 pl: Prywatna strona Marii Rydzy. Społeczeństwo, technologia, edukacja, śniadania w Krakowie i trochę rzeczy, o których jeszcze nie wiem że napiszę.
