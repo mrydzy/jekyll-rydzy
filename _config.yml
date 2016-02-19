@@ -23,6 +23,10 @@ github:
 
 #########################food########################
 
+photosPath:
+  pl: "../assets/photos/"
+  en: "../../assets/photos/"
+
 foodDataFile:
   pl: "foodDataFile.js"
   en: "foodDataFile-en.js"

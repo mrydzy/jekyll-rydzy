@@ -90,7 +90,7 @@
                         .replace('place.description', restaurant.description)
 
                 if (restaurant.photoSrc) {
-                    doc = doc.replace('place.photo', '<img src="../assets/photos/' + restaurant.photoSrc + '">')
+                    doc = doc.replace('place.photo', '<img src="{{site.photosPath[site.active_lang]}}' + restaurant.photoSrc + '">')
                 } else {
                     doc = doc.replace('place.photo', '')
                 }
