@@ -2,7 +2,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6NJEsNX4YCcFryorJjbHQymv6IrMn1fY"
         type="text/javascript">
     </script>
-    <!--<script src="http://maps.google.com/maps/api/js?sensor=true"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.19/gmaps.min.js"></script>
     <script src="/assets/js/{{site.foodDataFile[site.active_lang]}}"></script>
     <script>
@@ -171,7 +170,7 @@
         <div id="basic_map" class="map col-md-7"></div>
 
         <div class="links col-md-2">
-            <strong>Ulubione</strong><br/>
+            <strong>{{site.favourite[site.active_lang]}}</strong><br/>
             <ul>
                 <li><a href="#" class="pan-to-marker" data-id="31">Plac Nowy 1</a><br/></li>
                 <li><a href="#" class="pan-to-marker" data-id="24">The Blueberry Resto & Bar</a><br/></li>
@@ -187,7 +186,7 @@
         </div>
 
         <div class="links col-md-2">
-            <strong>Też dobre</strong><br/>
+            <strong>{{site.visited[site.active_lang]}}</strong><br/>
             <ul>
                 <li><a href="#" class="pan-to-marker" data-id="6">Well done</a><br/></li>
                 <li><a href="#" class="pan-to-marker" data-id="3">Le scandale</a><br/></li>

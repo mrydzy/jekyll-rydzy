@@ -52,6 +52,14 @@ nearBy:
   pl: "Znajdź w okolicy"
   en: "Find nearby"
 
+visited:
+  pl: "Odwiedzone"
+  en: "Visited"
+
+favourite:
+  pl: "Ulubione"
+  en: "Favourite"
+
 ##########################################################
 
 description: > # this means to ignore newlines until "baseurl:"
