@@ -262,7 +262,7 @@ window._foodMarkers = [
     "lng": 19.9432051,
     "food": "Jajko na bagietce",
     "photoSrc": "plac_nowy.jpeg",
-    "description":"Breakfast world champion league! Baguettes with eggs, chorizo, onion and other goodies. Filling and tasty in addition to a good price. The place is large and well decorated, the service was attentive and prompt. New favorite?"},
+    "description":"Breakfast first league player! Baguettes with eggs, chorizo, onion and other goodies. Not only filling and tasty but also in a good price. The place is large and well decorated, the service was attentive and prompt. New favorite?"},
   { "id":"papryczki",
     "name":"Papryczki 5",
     "address": "Mikołajska 5",

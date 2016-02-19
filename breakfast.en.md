@@ -14,7 +14,7 @@ it is time consuming and you cannot do it in advance. Makes no sense.
 
 There is one exception - breakfast food! Especially the one which will make me full for entire day.
 
-Encouraged by the questions 'where to go for Breakfast' in addition 'best around Kazimierz, not too pricy and with fast staff, so I can catch a flight at noon from Balice'
+Encouraged by the questions 'where to go for Breakfast' and to make it more difficult make it 'best around Kazimierz, not too pricy and with fast service, so I can catch a flight at noon from Balice'
 I've decided to create small map for all fellow breakfast lovers.
 
 

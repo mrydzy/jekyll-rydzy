@@ -64,6 +64,14 @@ favourite:
   pl: "Ulubione"
   en: "Favourite"
 
+price:
+  pl: "Cena"
+  en: "Price"
+
+whatWeAte:
+  pl: "Co jesliśmy"
+  en: "What we had"
+
 ##########################################################
 
 description: > # this means to ignore newlines until "baseurl:"
