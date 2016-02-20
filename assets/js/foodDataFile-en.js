@@ -130,7 +130,7 @@ window._foodMarkers = [
     "cost": "10-19zł",
     "lat": 50.044775,
     "lng": 19.936239,
-    "photoSrc": "forum.jpeg",
+    "photoSrc": "forum.jpg",
     "description":"Founders of this place new exactly what they were doing. Specious Mekka of local hipsters, mostly famous for it's summer garden, " +
     "is full of life all year round. And that's not surprising - food is always good there (but in the busy days you need to wait for it quite some time)."},
   { "id":"sphinx",

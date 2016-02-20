@@ -129,7 +129,7 @@ window._foodMarkers = [
     "lat": 50.044775,
     "lng": 19.936239,
     "food": "San Francisco",
-    "photoSrc": "forum.jpeg",
+    "photoSrc": "forum.jpg",
     "description":"Założyciele tego miejsca doskonale wiedzieli co robią. Przestronna hipsternia, chociaż najbardziej słynna jest z letnich leżaków, tętni życiem cały rok. I nic dziwnego - jedzenie jest zawsze bardzo dobre (chociaż w ruchliwe dni trzeba na nie sporo poczekać)."},
   { "id":"sphinx",
     "name":"Sphinx",
