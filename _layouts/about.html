@@ -16,7 +16,7 @@
             <div class="about-text" itemscope itemtype="http://schema.org/Person">
                {{content}}
 
-                Kontakt to: <span itemprop="email">[moje imie]@[moje nazwisko].pl</span>
+                Kontakt to: <span itemprop="email"><a href="mailto:{{ site.email[site.active_lang] }}">{{site.email[site.active_lang]}}</a></span>
             </div>
         </div>
     </div>
