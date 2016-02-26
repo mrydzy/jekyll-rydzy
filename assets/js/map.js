@@ -15,6 +15,8 @@ $('document').ready(function(){
     var rowNumber = row.data('row');
     removeChildren(rowNumber);
     mapContainer.addClass('stage' + rowNumber + '-' + target + '-' + currentCategory);
+
+    $.scrollTo($('#map-bottom'), 500, {offset: (-($(window).height()-100))});
   });
 
   var rowIdRegex = /\d+/;
