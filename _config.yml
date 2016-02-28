@@ -89,3 +89,6 @@ exclude_from_localization: ["assets", "css", "_sass", "_plugins"]
 About:
   pl: O mnie
   en: About
+
+############################
+gems: [jekyll-sitemap]
