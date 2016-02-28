@@ -1,36 +1,33 @@
-<!--<header class="site-header">-->
+<nav class="navbar navbar-inverse">
 
-  <!--<div class="wrapper">-->
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand site-title page-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        </div>
-        <div class="collapse navbar-collapse" id="main-nav">
-          <ul class="navbar-nav nav">
-            {% for node in site.pages %}
-            {% if node.lang contains site.active_lang %}
-            <li><a {% if page.url contains node.url %} class="page-link active" {% else %} class="page-link" {% endif %} href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-            {% for tongue in site.languages %}
-            <li>
-              <a {% if tongue == site.active_lang %}class="page-link active" {% else %}class="page-link" {% endif %}
-                 href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{tongue
-                }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <div class="nav-wrapper">
 
-  <!--</div>-->
-
-<!--</header>-->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand site-title page-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+    <div class="collapse navbar-collapse" id="main-nav">
+      <ul class="navbar-nav nav">
+        {% for node in site.pages %}
+        {% if node.lang contains site.active_lang %}
+        <li><a {% if page.url contains node.url %} class="page-link active" {% else %} class="page-link" {% endif %} href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+        {% for tongue in site.languages %}
+        <li>
+          <a {% if tongue == site.active_lang %}class="page-link active" {% else %}class="page-link" {% endif %}
+             href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{tongue
+            }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  </div>
+</nav>

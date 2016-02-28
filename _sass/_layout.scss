@@ -22,6 +22,12 @@
 }
 
 nav {
+    .nav-wrapper {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     a.page-link.active:after {
         content: "";
         width: 6px;
