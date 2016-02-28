@@ -272,6 +272,16 @@ window._foodMarkers = [
     "lng": 19.9392093,
     "food": "Mediterranean",
     "photoSrc": "papryczki.jpg",
-    "description":"Jeśli jestem w stanie zjeść sama całą porcję, oznacza to albo że jest wyjątkowo przepyszna, albo że jest mała. Tutaj był to ten drugi przypadek. A szkoda, bo miejsce nadzwyczaj przyjemne."}
+    "description":"Jeśli jestem w stanie zjeść sama całą porcję, oznacza to albo że jest wyjątkowo przepyszna, albo że jest mała. Tutaj był to ten drugi przypadek. A szkoda, bo miejsce nadzwyczaj przyjemne."},
+  { "id":"sisi",
+    "name":"Sisi organic bistro",
+    "address": "Krupnicza 3",
+    "cost": "25zł (including coffee or  sparkling wine!)",
+    "lat": 50.0634851,
+    "lng": 19.9319107,
+    "food": "Breakfast of Franz Jozef",
+    "photoSrc": "sisi.jpg",
+    "description":"Delicious organic food - especially tasty bread and cherry tomatoes. Breakfast includes just one egg, but quite some bacon and sausages. Charming place in the city center."}
+
 
 ];

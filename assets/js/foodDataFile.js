@@ -269,6 +269,16 @@ window._foodMarkers = [
     "lng": 19.9392093,
     "food": "Śniadanie śródziemnomorskie",
     "photoSrc": "papryczki.jpg",
-    "description":"Jeśli jestem w stanie zjeść sama całą porcję, oznacza to albo że jest wyjątkowo przepyszna, albo że jest mała. Tutaj był to ten drugi przypadek. A szkoda, bo miejsce nadzwyczaj przyjemne."}
+    "description":"Jeśli jestem w stanie zjeść sama całą porcję, oznacza to albo że jest wyjątkowo przepyszna, albo że jest mała. Tutaj był to ten drugi przypadek. A szkoda, bo miejsce nadzwyczaj przyjemne."},
+  { "id":"sisi",
+    "name":"Sisi organic bistro",
+    "address": "Krupnicza 3",
+    "cost": "25zł (w tym kawa lub wino musujące!)",
+    "lat": 50.0634851,
+    "lng": 19.9319107,
+    "food": "Śniadanie cesarza Franciszka",
+    "photoSrc": "sisi.jpg",
+    "description":"Przyjemny wystrój i bardzo dobre śniadanie z kiełkami groszku cukrowego i pysznymi pomidorkami oraz 'nie nadmuchanym' pieczywem - aż wierzę że wszystko było organiczne. Ciekawe menu, spory wybór, zmieniłabym jedynie część kiełbasek (było ich dużo) na dodatkowe jajko (było tylko jedno)."}
+
 
 ];
