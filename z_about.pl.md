@@ -9,7 +9,7 @@ Zawodowo kręcę się wokół branży informatycznej, co sześć miesięcy zmien
 Obecnie pracuję przy wewnętrznym wdrożeniu rozwiązania sprzedażowego opartego na Salesforce
 w krajach Europy zachodniej. 
 
-Wcześniej pracowałam jako programistka aplikacji webowych (Scala/Java/AngularJS) i bardzo ciągnie mnie do zespołów deweloperskich.  
+Wcześniej pracowałam jako programistka aplikacji webowych (Scala/Java/AngularJS) i ciągle bardzo lubię bawić się technologią.  
 
 Prywatnie głęboko wierzę w istnienie świata poza komputerem, a bardzo różne rzeczy wywołują u mnie rumieńce ekscytacji.
 Notorycznie angażuję się w dziwne projekty zawładnięcia światem.

@@ -9,7 +9,7 @@ Professionally I'm always somewhere on the IT orbit, currently changing position
 as a part of leadership program in one of the leading industrial companies. This cycle I'm working on deployment
 of the complex CRM solution.
 
-My prior experience is as a web-applications developer (Scala/Java/AngularJS) and I still try to stay up to date with dev world news.
+My prior experience is as a web-applications developer (Scala/Java/AngularJS) and I like to play with tech.
 
 Personally I deeply believe in existence of the wolrd outside of Internet and there is a variety of topics which
 make me blush from excitement and I hope to share them with you here.
