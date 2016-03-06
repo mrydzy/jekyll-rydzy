@@ -169,8 +169,9 @@ window._foodMarkers = [
     "cost": "17-25zł",
     "lat": 50.0634716,
     "lng": 19.9350056,
+    "photoSrc": "charlotte.jpg",
     "food": "croissanty, kanapki",
-    "description":"Dobra miejscówka na randkę, wszystkie laski w niewytłumaczalny sposób lubią to miejsce. Śniadaniowo chyba jedyne miejsce w mieście gdzie można dostać musujące wino. Jedzenie jest bardzo dobre (moja ulubiona Croque-madame!), jednak zupełnie nie polecam w tłoczne dni - obsługa nigdy nie jest w stanie ogarnąć więcej niż trzech stolików na krzyż. Zdarzyło mi się czekać 30 minut na samo wzięcie zamówienia, a potem 25 na rachunek, na którym w dodatku były błędy i musieli go (znowu w takim samym czasie) poprawiać. Nasze sobotnie śniadanie też zakończyło się fiaskiem - Marek tak się wkurzył na czekanie na zebranie zamówienia, że zmieniliśmy miejsce. Więc wpadajcie w tygodniu, a jak koniecznie musicie zjeść coś francuskiego w weekend, to ja bym raczej szła do 'Le Petit France' na Tomasza."},
+    "description":"Dobra miejscówka na randkę, wszystkie laski w niewytłumaczalny sposób lubią to miejsce. Śniadaniowo chyba jedyne miejsce w mieście gdzie można dostać musujące wino. Jedzenie jest bardzo dobre (moja ulubiona Croque-madame!), jednak zupełnie nie polecam w tłoczne dni - obsługa nigdy nie jest w stanie ogarnąć więcej niż trzech stolików na krzyż. Zdarzyło mi się czekać 30 minut na samo wzięcie zamówienia, a potem 25 na rachunek, na którym w dodatku były błędy i musieli go (znowu w takim samym czasie) poprawiać. Nasze sobotnie śniadanie też zakończyło się fiaskiem - Marek tak się wkurzył na czekanie na zebranie zamówienia, że zmieniliśmy miejsce. Więc wpadajcie w tygodniu, a jak koniecznie musicie zjeść coś francuskiego w weekend, to ja bym raczej szła do 'Le Petit France' na Tomasza. Na zdjęciu ."},
   { "id":"botanika",
     "name":"Botanica",
     "address": "ul. Bracka 9",
@@ -278,7 +279,17 @@ window._foodMarkers = [
     "lng": 19.9319107,
     "food": "Śniadanie cesarza Franciszka",
     "photoSrc": "sisi.jpg",
-    "description":"Przyjemny wystrój i bardzo dobre śniadanie z kiełkami groszku cukrowego i pysznymi pomidorkami oraz 'nie nadmuchanym' pieczywem - aż wierzę że wszystko było organiczne. Ciekawe menu, spory wybór, zmieniłabym jedynie część kiełbasek (było ich dużo) na dodatkowe jajko (było tylko jedno)."}
+    "description":"Przyjemny wystrój i bardzo dobre śniadanie z kiełkami groszku cukrowego i pysznymi pomidorkami oraz 'nie nadmuchanym' pieczywem - aż wierzę że wszystko było organiczne. Ciekawe menu, spory wybór, zmieniłabym jedynie część kiełbasek (było ich dużo) na dodatkowe jajko (było tylko jedno)."},
+  { "id":"illuminati",
+    "name":"Resto illuminati",
+    "address": "Gołębia 2",
+    "cost": "19zł (bez napojów)",
+    "lat": 50.0602233,
+    "lng": 19.9336098,
+    "food": "Jajka po Benedyktyńsku/Tunezyjska Shakshouka",
+    "photoSrc": "illuminati.jpg",
+    "description":"Świetny wystrój, przyjemne wnętrze, miła obsługa. Do śniadania dodawane jest pieczywo oraz dodatki, które można sobie wybrać z tacy podawanej przez kelnerkę - my wzięliśmy oliwki, przepyszny dżem oraz załatkę z rzodkiewką. Shakshouka wyglądała niesamowicie, chociaż okazało się, że to nie do końca moje smaki, ale jajka po benedyktyńsku były wzorowe."},
+
 
 
 ];

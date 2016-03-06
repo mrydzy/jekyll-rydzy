@@ -171,8 +171,9 @@ window._foodMarkers = [
     "cost": "17-25zł",
     "lat": 50.0634716,
     "lng": 19.9350056,
+    "photoSrc": "charlotte.jpg",
     "food": "croissanty, kanapki",
-    "description":"Dobra miejscówka na randkę, wszystkie laski w niewytłumaczalny sposób lubią to miejsce. Śniadaniowo chyba jedyne miejsce w mieście gdzie można dostać musujące wino. Jedzenie jest bardzo dobre (moja ulubiona Croque-madame!), jednak zupełnie nie polecam w tłoczne dni - obsługa nigdy nie jest w stanie ogarnąć więcej niż trzech stolików na krzyż. Zdarzyło mi się czekać 30 minut na samo wzięcie zamówienia, a potem 25 na rachunek, na którym w dodatku były błędy i musieli go (znowu w takim samym czasie) poprawiać. Nasze sobotnie śniadanie też zakończyło się fiaskiem - Marek tak się wkurzył na czekanie na zebranie zamówienia, że zmieniliśmy miejsce. Więc wpadajcie w tygodniu, a jak koniecznie musicie zjeść coś francuskiego w weekend, to ja bym raczej szła do 'Le Petit France' na Tomasza."},
+    "description":"It's hard to explain, but all girls I know love this place. Service is terribly slow, so it's bad idea for peak hours, but the breakfast you can see on the photo was ordered at 8pm. Delicious food, not only breakfast (to which you can get sparking wine!) - I personally I always go Croque-madame."},
   { "id":"botanika",
     "name":"Botanica",
     "address": "ul. Bracka 9",
@@ -281,7 +282,16 @@ window._foodMarkers = [
     "lng": 19.9319107,
     "food": "Breakfast of Franz Jozef",
     "photoSrc": "sisi.jpg",
-    "description":"Delicious organic food - especially tasty bread and cherry tomatoes. Breakfast includes just one egg, but quite some bacon and sausages. Charming place in the city center."}
+    "description":"Delicious organic food - especially tasty bread and cherry tomatoes. Breakfast includes just one egg, but quite some bacon and sausages. Charming place in the city center."},
+  { "id":"illuminati",
+    "name":"Resto illuminati",
+    "address": "Gołębia 2",
+    "cost": "19zł (bez napojów)",
+    "lat": 50.0602233,
+    "lng": 19.9336098,
+    "food": "Eggs Benetics/Tunisian Shakshouka",
+    "photoSrc": "illuminati.jpg",
+    "description":"I rarely pay attention to decoration, but in this place it is hard not to mention it. Well designed place and menu. Breakfast includes bread and additives which you can pick yourself from the tray provided by the waitress - we took olives, delicious jam and salad. Shakshouka turned out not to be my favourite dish (I've never had it before), but eggs benedict were just delicious!"},
 
 
 ];
