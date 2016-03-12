@@ -1,0 +1,111 @@
+body {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+.map-lines {
+  width: 36%;
+  min-height: 45px;
+  border: 0px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(dotted.png) round;
+  /* Safari 3.1-5 */
+  -o-border-image: url(dotted.png) round;
+  /* Opera 11-12.1 */
+  border-image: url(dotted.png) round;
+  border-image-slice: 33%; }
+  .map-lines.bottom {
+    border-bottom-width: 10px; }
+  .map-lines.left {
+    border-left-width: 10px; }
+  .map-lines.top {
+    border-top-width: 10px; }
+  .map-lines.right {
+    border-right-width: 10px; }
+  .map-lines.single {
+    width: 72%; }
+
+.map-wrapper {
+  min-width: 600px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.map-row {
+  display: flex;
+  justify-content: space-between; }
+
+.map-row-, .map-row-1, .map-row-11, .map-row-111, .map-row-1111, .map-row-1112, .map-row-1113, .map-row-112, .map-row-1121, .map-row-1122, .map-row-1123, .map-row-113, .map-row-1131, .map-row-1132, .map-row-1133, .map-row-12, .map-row-121, .map-row-1211, .map-row-1212, .map-row-1213, .map-row-122, .map-row-1221, .map-row-1222, .map-row-1223, .map-row-123, .map-row-1231, .map-row-1232, .map-row-1233, .map-row-13, .map-row-131, .map-row-1311, .map-row-1312, .map-row-1313, .map-row-132, .map-row-1321, .map-row-1322, .map-row-1323, .map-row-133, .map-row-1331, .map-row-1332, .map-row-1333, .map-row-2, .map-row-21, .map-row-211, .map-row-2111, .map-row-2112, .map-row-2113, .map-row-212, .map-row-2121, .map-row-2122, .map-row-2123, .map-row-213, .map-row-2131, .map-row-2132, .map-row-2133, .map-row-22, .map-row-221, .map-row-2211, .map-row-2212, .map-row-2213, .map-row-222, .map-row-2221, .map-row-2222, .map-row-2223, .map-row-223, .map-row-2231, .map-row-2232, .map-row-2233, .map-row-23, .map-row-231, .map-row-2311, .map-row-2312, .map-row-2313, .map-row-232, .map-row-2321, .map-row-2322, .map-row-2323, .map-row-233, .map-row-2331, .map-row-2332, .map-row-2333, .map-row-3, .map-row-31, .map-row-311, .map-row-3111, .map-row-3112, .map-row-3113, .map-row-312, .map-row-3121, .map-row-3122, .map-row-3123, .map-row-313, .map-row-3131, .map-row-3132, .map-row-3133, .map-row-32, .map-row-321, .map-row-3211, .map-row-3212, .map-row-3213, .map-row-322, .map-row-3221, .map-row-3222, .map-row-3223, .map-row-323, .map-row-3231, .map-row-3232, .map-row-3233, .map-row-33, .map-row-331, .map-row-3311, .map-row-3312, .map-row-3313, .map-row-332, .map-row-3321, .map-row-3322, .map-row-3323, .map-row-333, .map-row-3331, .map-row-3332, .map-row-3333 {
+  display: none; }
+
+.stage- .map-row-, .stage-1 .map-row-1, .stage-11 .map-row-11, .stage-111 .map-row-111, .stage-1111 .map-row-1111, .stage-1112 .map-row-1112, .stage-1113 .map-row-1113, .stage-112 .map-row-112, .stage-1121 .map-row-1121, .stage-1122 .map-row-1122, .stage-1123 .map-row-1123, .stage-113 .map-row-113, .stage-1131 .map-row-1131, .stage-1132 .map-row-1132, .stage-1133 .map-row-1133, .stage-12 .map-row-12, .stage-121 .map-row-121, .stage-1211 .map-row-1211, .stage-1212 .map-row-1212, .stage-1213 .map-row-1213, .stage-122 .map-row-122, .stage-1221 .map-row-1221, .stage-1222 .map-row-1222, .stage-1223 .map-row-1223, .stage-123 .map-row-123, .stage-1231 .map-row-1231, .stage-1232 .map-row-1232, .stage-1233 .map-row-1233, .stage-13 .map-row-13, .stage-131 .map-row-131, .stage-1311 .map-row-1311, .stage-1312 .map-row-1312, .stage-1313 .map-row-1313, .stage-132 .map-row-132, .stage-1321 .map-row-1321, .stage-1322 .map-row-1322, .stage-1323 .map-row-1323, .stage-133 .map-row-133, .stage-1331 .map-row-1331, .stage-1332 .map-row-1332, .stage-1333 .map-row-1333, .stage-2 .map-row-2, .stage-21 .map-row-21, .stage-211 .map-row-211, .stage-2111 .map-row-2111, .stage-2112 .map-row-2112, .stage-2113 .map-row-2113, .stage-212 .map-row-212, .stage-2121 .map-row-2121, .stage-2122 .map-row-2122, .stage-2123 .map-row-2123, .stage-213 .map-row-213, .stage-2131 .map-row-2131, .stage-2132 .map-row-2132, .stage-2133 .map-row-2133, .stage-22 .map-row-22, .stage-221 .map-row-221, .stage-2211 .map-row-2211, .stage-2212 .map-row-2212, .stage-2213 .map-row-2213, .stage-222 .map-row-222, .stage-2221 .map-row-2221, .stage-2222 .map-row-2222, .stage-2223 .map-row-2223, .stage-223 .map-row-223, .stage-2231 .map-row-2231, .stage-2232 .map-row-2232, .stage-2233 .map-row-2233, .stage-23 .map-row-23, .stage-231 .map-row-231, .stage-2311 .map-row-2311, .stage-2312 .map-row-2312, .stage-2313 .map-row-2313, .stage-232 .map-row-232, .stage-2321 .map-row-2321, .stage-2322 .map-row-2322, .stage-2323 .map-row-2323, .stage-233 .map-row-233, .stage-2331 .map-row-2331, .stage-2332 .map-row-2332, .stage-2333 .map-row-2333, .stage-3 .map-row-3, .stage-31 .map-row-31, .stage-311 .map-row-311, .stage-3111 .map-row-3111, .stage-3112 .map-row-3112, .stage-3113 .map-row-3113, .stage-312 .map-row-312, .stage-3121 .map-row-3121, .stage-3122 .map-row-3122, .stage-3123 .map-row-3123, .stage-313 .map-row-313, .stage-3131 .map-row-3131, .stage-3132 .map-row-3132, .stage-3133 .map-row-3133, .stage-32 .map-row-32, .stage-321 .map-row-321, .stage-3211 .map-row-3211, .stage-3212 .map-row-3212, .stage-3213 .map-row-3213, .stage-322 .map-row-322, .stage-3221 .map-row-3221, .stage-3222 .map-row-3222, .stage-3223 .map-row-3223, .stage-323 .map-row-323, .stage-3231 .map-row-3231, .stage-3232 .map-row-3232, .stage-3233 .map-row-3233, .stage-33 .map-row-33, .stage-331 .map-row-331, .stage-3311 .map-row-3311, .stage-3312 .map-row-3312, .stage-3313 .map-row-3313, .stage-332 .map-row-332, .stage-3321 .map-row-3321, .stage-3322 .map-row-3322, .stage-3323 .map-row-3323, .stage-333 .map-row-333, .stage-3331 .map-row-3331, .stage-3332 .map-row-3332, .stage-3333 .map-row-3333 {
+  display: flex;
+  flex-direction: column; }
+
+.map-col textarea {
+  background: none;
+  border: none;
+  resize: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+.map-col, .map-col-blank {
+  min-height: 100px;
+  display: flex;
+  width: 30%;
+  min-width: 100px;
+  align-items: center;
+  flex-direction: column; }
+
+.map-col, .parent, .map-placeholder {
+  border: 3px solid #8c8c8c;
+  background-color: #FDFDFD;
+  padding: 15px;
+  border-radius: 8px; }
+
+.parent {
+  border: 1px groove #eFeFef;
+  background-color: #FCFCFC; }
+
+.parent {
+  cursor: pointer; }
+
+.map-placeholder {
+  border: 1px solid #eFeFef;
+  background-color: #eFeFef; }
+
+.parent:hover {
+  background-color: #F3F3F3; }
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1); }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    transform: scale3d(1, 1, 1); } }
+
+.parent {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-fill-mode: both; }
+
+.map-lines-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center; }
+
+.row-wrapper {
+  width: 100%; }
+
+.col-input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }

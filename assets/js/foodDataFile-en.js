@@ -292,6 +292,15 @@ window._foodMarkers = [
     "food": "Eggs Benetics/Tunisian Shakshouka",
     "photoSrc": "illuminati.jpg",
     "description":"I rarely pay attention to decoration, but in this place it is hard not to mention it. Well designed place and menu. Breakfast includes bread and additives which you can pick yourself from the tray provided by the waitress - we took olives, delicious jam and salad. Shakshouka turned out not to be my favourite dish (I've never had it before), but eggs benedict were just delicious!"},
+  { "id":"bistro11",
+    "name":"Bistro 11",
+    "address": "Rakowicka 11",
+    "cost": "23zł (bez napojów)",
+    "lat": 50.0661597,
+    "lng": 19.9502411,
+    "food": "New Yorker/Egg burger",
+    "photoSrc": "bistro11.jpg",
+    "description":"The prices of the place reflect it's charm, but unfortunately are not matched by quality. We didn't get menus until after 20-30 minutes my annoyed boyfriend asked the waitress for it and some people who came after us managed to leave before we got our food (and even drinks!). Additionally the burger rolls weren't fresh 'freshly squeezed' juice was actually 2-day juice and my friends literally asked me to create 'dont go there' column for this place. Pity."},
 
 
 ];

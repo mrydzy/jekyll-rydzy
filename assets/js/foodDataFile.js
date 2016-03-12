@@ -289,6 +289,15 @@ window._foodMarkers = [
     "food": "Jajka po Benedyktyńsku/Tunezyjska Shakshouka",
     "photoSrc": "illuminati.jpg",
     "description":"Świetny wystrój, przyjemne wnętrze, miła obsługa. Do śniadania dodawane jest pieczywo oraz dodatki, które można sobie wybrać z tacy podawanej przez kelnerkę - my wzięliśmy oliwki, przepyszny dżem oraz załatkę z rzodkiewką. Shakshouka wyglądała niesamowicie, chociaż okazało się, że to nie do końca moje smaki, ale jajka po benedyktyńsku były wzorowe."},
+  { "id":"bistro11",
+    "name":"Bistro 11",
+    "address": "Rakowicka 11",
+    "cost": "23zł (bez napojów)",
+    "lat": 50.0661597,
+    "lng": 19.9502411,
+    "food": "New Yorker/Egg burger",
+    "photoSrc": "bistro11.jpg",
+    "description":"Cena dobrze odzwierciedla przyjemny wystrój miejsca, niestety jednak nie jakość. Menu dostaliśmy, gdy po 20-30 minutach zirytowani o nie poprosiliśmy. Nawet na napoje przyszło nam później czekać bardzo, bardzo długo. Śniadanie było wielkim rozczarowaniem, gdyż bułki burgerów były suche, świeży sok był tak naprawdę sokiem dwudniowym z butelki, a koleżanki poprosiły mnie o dodanie działu 'nigdy tam nie idź'. Więc i nie polecam."},
 
 
 
