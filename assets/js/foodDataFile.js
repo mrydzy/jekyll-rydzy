@@ -171,7 +171,7 @@ window._foodMarkers = [
     "lng": 19.9350056,
     "photoSrc": "charlotte.jpg",
     "food": "croissanty, kanapki",
-    "description":"Dobra miejscówka na randkę, wszystkie laski w niewytłumaczalny sposób lubią to miejsce. Śniadaniowo chyba jedyne miejsce w mieście gdzie można dostać musujące wino. Jedzenie jest bardzo dobre (moja ulubiona Croque-madame!), jednak zupełnie nie polecam w tłoczne dni - obsługa nigdy nie jest w stanie ogarnąć więcej niż trzech stolików na krzyż. Zdarzyło mi się czekać 30 minut na samo wzięcie zamówienia, a potem 25 na rachunek, na którym w dodatku były błędy i musieli go (znowu w takim samym czasie) poprawiać. Nasze sobotnie śniadanie też zakończyło się fiaskiem - Marek tak się wkurzył na czekanie na zebranie zamówienia, że zmieniliśmy miejsce. Więc wpadajcie w tygodniu, a jak koniecznie musicie zjeść coś francuskiego w weekend, to ja bym raczej szła do 'Le Petit France' na Tomasza. Na zdjęciu ."},
+    "description":"Dobra miejscówka na randkę, wszystkie laski w niewytłumaczalny sposób lubią to miejsce. Jedzenie jest bardzo dobre (moja ulubiona Croque-madame!), przepyszne komfiury i wino musujące do śniadania. Nie polecam w tłoczne dni - nasze sobotnie śniadanie też zakończyło się fiaskiem - Marek tak się wkurzył na czekanie na zebranie zamówienia, że zmieniliśmy miejsce. Więc wpadajcie w tygodniu, albo wieczorami (śniadanie serwowane cały dzień), ale jeśli macie ochotę na coś francuskiego na szybko, to ja bym raczej szła do 'Le Petit France' na Tomasza."},
   { "id":"botanika",
     "name":"Botanica",
     "address": "ul. Bracka 9",

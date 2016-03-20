@@ -173,7 +173,7 @@ window._foodMarkers = [
     "lng": 19.9350056,
     "photoSrc": "charlotte.jpg",
     "food": "croissanty, kanapki",
-    "description":"It's hard to explain, but all girls I know love this place. Service is terribly slow, so it's bad idea for peak hours, but the breakfast you can see on the photo was ordered at 8pm. Delicious food, not only breakfast (to which you can get sparking wine!) - I personally I always go Croque-madame."},
+    "description":"It's hard to explain, but all girls I know love this place. Delicious food, not only fresh breakfast bread with home-made jams (to which you can get sparking wine!) but also wonderful Croque-madame. Service is terribly slow, so it happened that we left when after 40 minutes, on not busy day, noone even took our order."},
   { "id":"botanika",
     "name":"Botanica",
     "address": "ul. Bracka 9",
