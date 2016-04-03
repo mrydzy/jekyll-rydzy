@@ -298,6 +298,15 @@ window._foodMarkers = [
     "food": "New Yorker/Egg burger",
     "photoSrc": "bistro11.jpg",
     "description":"Cena dobrze odzwierciedla przyjemny wystrój miejsca, niestety jednak nie jakość. Menu dostaliśmy, gdy po 20-30 minutach zirytowani o nie poprosiliśmy. Nawet na napoje przyszło nam później czekać bardzo, bardzo długo. Śniadanie było wielkim rozczarowaniem, gdyż bułki burgerów były suche, świeży sok był tak naprawdę sokiem dwudniowym z butelki, a koleżanki poprosiły mnie o dodanie działu 'nigdy tam nie idź'. Więc i nie polecam."},
+  { "id":"wloska",
+    "name":"Włoska",
+    "address": "Sukiennicza 8",
+    "cost": "20-30zł (with drinks)",
+    "lat": 50.0518148,
+    "lng": 19.935344,
+    "food": "Tost z Awokado i jajkiem w koszulce (na zdjęciu), omlet z 3 jaj",
+    "photoSrc": "wloska.jpg",
+    "description":"Przyjemne miejsce o przeszklonych ścianach, szczególnie miłe w słoneczne poranki. Jedzenie dobre i lekkie, jedynie pieczywo mogłoby być bardziej świeżo chrupiące niż twardo-przypieczone. A w tą sobotę, przy stoliku obok, jadłą Agnieszka Radwańska."}
 
 
 
