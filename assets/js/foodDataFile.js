@@ -306,8 +306,34 @@ window._foodMarkers = [
     "lng": 19.935344,
     "food": "Tost z Awokado i jajkiem w koszulce (na zdjęciu), omlet z 3 jaj",
     "photoSrc": "wloska.jpg",
-    "description":"Przyjemne miejsce o przeszklonych ścianach, szczególnie miłe w słoneczne poranki. Jedzenie dobre i lekkie, jedynie pieczywo mogłoby być bardziej świeżo chrupiące niż twardo-przypieczone. A w tą sobotę, przy stoliku obok, jadłą Agnieszka Radwańska."}
-
+    "description":"Przyjemne miejsce o przeszklonych ścianach, szczególnie miłe w słoneczne poranki. Jedzenie dobre i lekkie, jedynie pieczywo mogłoby być bardziej świeżo chrupiące niż twardo-przypieczone. A w tą sobotę, przy stoliku obok, jadłą Agnieszka Radwańska."},
+  { "id":"blossom",
+    "name":"Blossom",
+    "address": "ul. Rakowicka 20",
+    "cost": "21zł + napoje",
+    "lat": 50.069154,
+    "lng": 19.9507117,
+    "food": "Śniadanie królewskie",
+    "photoSrc": "blossom.jpg",
+    "description":"Śniadanie królewskie to kombinacja jajek (podanych wedle preferencji), guacamole, chorizzo oraz parmezanu podanego z przepysznym chlebem (podobno wypiekanym w Lanckoronie) oraz mieszaniną sałat, migdałów i kiełków. Gdy przyszliśmy w restauracji nie było już świeżego avocado, zaproponowano nam dowolny inny składnik (wzięliśmy bekon). Trochę drożej niż zwykle, ale było warto."},
+  { "id":"guliwer",
+    "name":"Gulwer Resto & Cafe",
+    "address": "ul. Bracka 6",
+    "cost": "21zł",
+    "lat": 50.0691526,
+    "lng": 19.9353909,
+    "food": "Śniadanie angielskie, słodkie śniadanie",
+    "photoSrc": "guliwer.jpg",
+    "description":"Śniadanie angielskie miało w sobie wszystko co powinno mieć - ni więcej ni mniej. Słodkie śniadanie zaskoczyło mnie bardzo dobrym połączeniem sera i dżemu. Ogólnie na plus. "},
+  { "id":"wild_bean",
+    "name":"BP Wild Bean Cafe",
+    "address": "al. 29 listopada",
+    "cost": "około 20zł",
+    "lat": 50.078846,
+    "lng": 19.9500466,
+    "food": "jogurt i kanapka",
+    "photoSrc": "wild_bean.jpg",
+    "description":"Jedąc na wycieczkę i jedząc śniadanie na stacji nie oczekuje się zbyt wiele. Można się jednak zdziwić! Pełnoziarniste pieczywo z pysznym serkiem i świeżym szczypiorkiem, a do tego dość dobry jogurt sprawiły że nie żałoałam opuszczenia tradycyjnego śniadania w restauracji."}
 
 
 ];
