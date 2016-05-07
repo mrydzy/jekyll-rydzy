@@ -333,7 +333,17 @@ window._foodMarkers = [
     "lng": 19.9500466,
     "food": "jogurt i kanapka",
     "photoSrc": "wild_bean.jpg",
-    "description":"Jedąc na wycieczkę i jedząc śniadanie na stacji nie oczekuje się zbyt wiele. Można się jednak zdziwić! Pełnoziarniste pieczywo z pysznym serkiem i świeżym szczypiorkiem, a do tego dość dobry jogurt sprawiły że nie żałoałam opuszczenia tradycyjnego śniadania w restauracji."}
+    "description":"Jedąc na wycieczkę i jedząc śniadanie na stacji nie oczekuje się zbyt wiele. Można się jednak zdziwić! Pełnoziarniste pieczywo z pysznym serkiem i świeżym szczypiorkiem, a do tego dość dobry jogurt sprawiły że nie żałoałam opuszczenia tradycyjnego śniadania w restauracji."},
+  { "id":"castror",
+    "name":"Castor Coffee & Lunch",
+    "address": "al. Kijowska 40",
+    "cost": "13zł + napoje",
+    "lat": 50.0766734,
+    "lng": 19.9155524,
+    "food": "Camembert Bagel & Omlet with Chorizzo",
+    "photoSrc": "castor.JPG",
+    "description":"Jedzenie było takie jak na zdjęciu - OK. Warto jednak opowiedzieć o napojach! Marek wziął kawę bez kawy, a ja trafiłam na Mango Chai - połączenie herbaty, spienionego mlega i mango, które było jedną z najlepszych rzeczy jakich kiedykolwiek próbowałam! Polecam!"},
+
 
 
 ];

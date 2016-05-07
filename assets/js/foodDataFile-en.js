@@ -336,7 +336,17 @@ window._foodMarkers = [
     "lng": 19.9500466,
     "food": "Joghurt + sandwitch",
     "photoSrc": "wild_bean.jpg",
-    "description":"Going for a roadtrip and eating breakfast at the gas station you might not expect much. But Wild Bean Cafe surprised me! Wholemeal bread with cottage cheese and chive, together with joghurt are a really good beginning of the day!"}
+    "description":"Going for a roadtrip and eating breakfast at the gas station you might not expect much. But Wild Bean Cafe surprised me! Wholemeal bread with cottage cheese and chive, together with joghurt are a really good beginning of the day!"},
+  { "id":"castror",
+    "name":"Castor Coffee & Lunch",
+    "address": "al. Kijowska 40",
+    "cost": "13zł + drinks",
+    "lat": 50.0766734,
+    "lng": 19.9155524,
+    "food": "Camembert Bagel & Omlet with Chorizzo",
+    "photoSrc": "castor.JPG",
+    "description":"The food was exactly as on the photo - simply good. But what I want to mention are the drinks! Marek had some coffee which actually is not coffee, and I had... Mango Chai! A combination of tea, foamed milk and mango, which was literally one of the best things I've ever drank!"},
+
 
 
 ];
