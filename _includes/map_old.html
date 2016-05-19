@@ -1,0 +1,726 @@
+
+<script  type="text/javascript" src="{{ site.url }}/assets/js/map.js"></script>
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.js"></script>
+
+<link rel="stylesheet" href="{{ site.url }}/assets/css/map.css">
+<div class="map-container">
+
+    <!-- Top Menu -->
+    <div class="map-row map-content-row row0" data-row="0">
+        <div class="map-col col0" data-target="0" data-category="website"><i class="fa fa-file fa-sm "></i><span>Display content</span></div>
+        <div class="map-col col1" data-target="1" data-category="webapp"><i
+                class="fa fa-desktop fa-sm "></i><span>Compute & store data</span></div>
+        <div class="map-col col2" data-target="2" data-category="mobile"><i class="fa fa-mobile fa-sm"></i><span>Solution dedicated for mobile</span>
+        </div>
+    </div>
+    <!-- Mobile-->
+    <div class="mobile">
+        <div class="row1-2 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom"></div>
+                <div class="map-lines bottom right"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="1">
+                <div class="map-col col0" data-target="20">
+                    You:
+                    <ul>
+                        <li>Need to use any phone accessories like camera</li>
+                        <li>Want to send push notifications</li>
+                        <li>Require 'native' feel on every phone OS</li>
+                        <li>Are confident that user wants to install your app</li>
+                    </ul>
+                    <span class="">And you are you ready to pay a lot for that</span>
+                </div>
+                <div class="map-col"></div>
+                <div class="map-col col2" data-target="22">
+                    You want an application which looks nicely on mobile and rearranges itself depending on the size of the screen,
+                    but the functionality needs to be exactly the same as on desktop.
+                </div>
+            </div>
+        </div>
+        <div class="row2-20 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom left"></div>
+                <div class="map-lines bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="2">
+                <div class="map-col col0" data-target="200">
+                    You don't want basic web application - that's fine. You still have a chance to save some money by writing major part of your code only once and re-using it on all the plaftorms. There are two considerable ways to go.
+                </div>
+                <div class="map-col"></div>
+                <div class="map-col col2" data-target="202">
+                    You're rich and you want native apps for all the platforms. If you want to hit a mass market, most probably you will develop solutions at least for Android and for iOS. Native application can meet all the platform design requirements and navigation specifics, without any 'middleman' overhead.
+                </div>
+
+            </div>
+        </div>
+        <div class="row2-22 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="2">
+                <div class="map-col">
+                </div>
+                <div class="map-col"></div>
+                <div class="map-col">
+                    Get traditional web-app (second section) and make sure to hire good web designers who will make it responsive. And you're welcome for saving you lots of money.
+                </div>
+
+            </div>
+        </div>
+        <div class="row3-202 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom "></div>
+                <div class="map-lines bottom right"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left right"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="3">
+                <div class="map-col" >
+                    <img src="{{ site.url }}/assets/map-images/android.png" class="image-logo"/>
+
+                    Android is definitely the most closed open-source project in the world. But to code on this platform you will need some Java skills + experience.
+                </div>
+                <div class="map-col" ><img src="{{ site.url }}/assets/map-images/ios.png" class="image-logo"/>
+                For iOS you will need Apple Swift magicians - gossips claim that Swift is pretty awesome so you don't want to go for Objective C solution - which is an earlier standard.
+                </div>
+                <div class="map-col" >
+                    <img src="{{ site.url }}/assets/map-images/wf.png" class="image-logo"/>
+                    For Windows Phone you would need XAML and C#. Have in mind that even Snapchat didn't bother to to code for Windows Phone, so there are very few situations in which you should do so.
+                    I'm not even mentioning Blackberry, since I'd rather develop for Xiaomi than for it.
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row3-200 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom left"></div>
+                <div class="map-lines bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row">
+                <div class="map-col map-col-half" >
+                    <img src="{{ site.url }}/assets/map-images/cordova.png" class="image-logo"/>Apache Cordova (widely recognized in Phonegap distribution). Mentioning it makes me feel a little bit guilty, since it may seem that I'm trying to trick you into browser-based solution again. Yes, that's true that Cordova actually runs in a browser, but it's very unlikely that your user will realize that! Check out some implementations to see it yourself. It's huge advantage it's simplicity - solution can be delivered using exclusively JS, HTML and CSS. I had a pleasure to test the   plugin, which enables to develop for mobile using AngularJS. It was extremely easy to get started and the development proceeded surprisingly, fast as long as I was using very typical use cases. When it came to using some plugins it took me ages to discover that relatively popular one wasn't yet working with newest software version and errors weren't my configuration's fault. It has been 2 years ago and the community has grown since then a lot since then, so that argument most probably isn't valid anymore. If you're considered about the future of the framework - well, you never know, but Cordova is backed by Adobe, who donated it to Apache Foundation.
+                </div>
+                <div class="map-col map-col-half" >
+                    <img src="{{ site.url }}/assets/map-images/react_native.png" class="image-logo"/>
+                    React Native enables you to write applications using ReactJS (which most front-end developers are already familiar with) but encorporating some native components of each mobile operation systems, like tab bar in iOS and DrawerLayout on Android. If you don't believe that, you might want to check those apps out.
+                    Solution seems to be extremely handy. Additionally blessing from Zuckerberg's corporation increases chances that the support for it won't stop after community finds new hype topic.
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Static Website (1) -->
+    <div class="website">
+        <div class="row1-0 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines left bottom"></div>
+                <div class="map-lines bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="1">
+                <div class="map-col col0" data-target="0">Frequent, short updates, constant interaction with
+                    customers.
+                </div>
+                <div class="map-col col1" data-target="1">Informative website targeting to provide the data.
+                    Possibly with Content Management System (CMS), for
+                    easy updates
+                    by non-technical people.
+                </div>
+            </div>
+        </div>
+        <div class="row2-0 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines"></div>
+            </div>
+            <div class="map-row map-content-row" >
+
+                <div class="map-col map-col-single">
+                    <p><img src="{{ site.url }}/assets/map-images/twitter.png" alt="Twitter"
+                             class="image-logo logo-small"/>
+                        <img src="{{ site.url }}/assets/map-images/facebook.png" alt="Facebook"
+                             class="image-logo logo-small"/>
+                        <img src="{{ site.url }}/assets/map-images/linkedin.png" alt="LinkedIn"
+                             class="image-logo logo-small"/></p>
+                    It might sound like stating the obvious, but if you want to promote your business and easily position your brand in search engines it really is a good idea to create dedicated accounts on some popular social media.<br />
+                </div>
+            </div>
+        </div>
+        <div class="row2-1 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom"></div>
+                <div class="map-lines right bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left right"></div>
+                <div class="map-lines right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="2">
+                <div class="map-col">
+                    <p><img src="{{ site.url }}/assets/map-images/wordpress.png" alt="Wordpress logo"
+                             class="image-logo"/></p>
+                    You can either download Wordpress and deploy yourself or simply buy a hosting with everything you need pre-installed. You just need to pick one of numerous templates, which you can customize without any coding skills, add some content and are good to go.
+                    Disadvantages? Huge customization of existing templates at the beginning is quite painful.
+                    So that's by far the best choice if you find the pre-existing template that meets your needs (or are planning to create one) - in other cases just worth considering.
+                </div>
+                <div class="map-col">
+                    <p><img src="{{ site.url }}/assets/map-images/joomla.png" alt="Joomla logo" class="image-logo"/>
+                        <img src="{{ site.url }}/assets/map-images/drupal.png" alt="Drupal logo" class="image-logo"/>
+                    </p>Joomla! and Drupal are also supported by numerous services offering a single-click installation, getting your new site up and running in just a few minutes, with
+                    customization options with PHP, MySQ, and CSS. Internet is full of tutorials for those two.
+                </div>
+                <div class="map-col">
+                    <img src="{{ site.url }}/assets/map-images/jelly.png" alt="Drupal logo" class="image-logo"/>
+
+                    <p>Jekyll is in this section to give you a way out after you use some blogging system. It imports
+                        your framework-based website into simple page, which can be easily hosted on Github pages.
+                        Actually I've re-written my personal website to test jekyll and I'm
+                        really happy with it. You can have a look at <a href="https://github.com/mrydzy/jekyll-rydzy">sample
+                            project</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Web app (2) -->
+    <div class="webapp">
+        <div class="row1-1 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom"></div>
+                <div class="map-lines left bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="1">
+                <div class="map-col col0" data-target="0">
+                    Standalone application which needs to be installed on the computer. Like Notepad, Excel or
+                    Minesweeper. But that's not trendy, so I'm not gonna write about it too much.
+                </div>
+                <div class="map-col col1" data-target="1">
+                    Use a web browser as an interface - like Gmail or Salesforce. It will store the data in your
+                    servers,
+                    which people will call 'cloud' (and not understand at all).
+                </div>
+            </div>
+        </div>
+        <div class="row2-1 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines-obligatory bottom"></div>
+                <div class="map-lines-obligatory bottom right"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines-obligatory left right"></div>
+                <div class="map-lines-obligatory right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="2">
+                <div class="map-col col0" data-target="0">
+                    Front-end<i class="fa fa-desktop fa-sm"></i> What the user will see in the browser.
+                </div>
+                <div class="map-col col1" data-target="1">
+                    Backend<i class="fa fa-cloud fa-sm"></i> Server side application which handles logic.
+                </div>
+                <div class="map-col col2" data-target="2">
+                    Database<i class="fa fa-database fa-sm"></i> Here you will store the data.
+                </div>
+            </div>
+        </div>
+
+        <div class="row3-11 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom right"></div>
+                <div class="map-lines bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="3">
+                <div class="map-col col0" data-target="10">
+                    Traditional
+                </div>
+                <div class="map-col" data-target="1"></div>
+                <div class="map-col col1" data-target="12">
+                    Cool
+                </div>
+            </div>
+        </div>
+
+        <!-- corporate backend-->
+        <div class="row4-110 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom left"></div>
+                <div class="map-lines bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="4">
+                <div class="map-col map-col-half" >
+                    <img class="image-logo" src="{{ site.url }}/assets/map-images/spring.png"/>
+                    <img class="image-logo" src="{{ site.url }}/assets/map-images/hibernate.png"/>
+                    Spring + Hibernate <br />
+                    Maybe you want to consider using it with JBoss? If your startup doesn't bring you fame & fortune with that trio you will easily roll back to corporate life
+                    where they will make you support some outdated banking system.
+                    It can get quite complex and messy, so if you don't know what you're doing maybe pick something else or at least try Spring Boot.
+                </div>
+                <div class="map-col map-col-half" >
+                    .NET MVC <br />
+                    Well you can use it, I'm just not sure why to do it, but I also don't see why not. If you have any good arguments for one of the other, please let me know!
+                    Just please don't use .NET Forms since they are quite outdated solution.
+                </div>
+            </div>
+        </div>
+
+        <!-- startup backend -->
+        <div class="row4-112 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom"></div>
+                <div class="map-lines bottom right"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="4">
+                <div class="map-col col0" data-target="120">
+                    Scripting Languages
+                </div>
+                <div class="map-col">
+                </div>
+                <div class="map-col col1" data-target="122">
+                    Real languages
+                </div>
+            </div>
+        </div>
+
+        <!-- scriptiong backend -->
+        <div class="row5-1120 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom left"></div>
+                <div class="map-lines bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left right"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="5">
+                <div class="map-col" data-target="1200">
+                    Python <br/>
+                    Popular and reliable scripting language with extremely fast development possibilities, which I have never learnt.
+                </div>
+                <div class="map-col" data-target="1201">
+                    JS (Node.js) <br />
+                    Javascript seems to be everywhere and Node is great example of that. Write consistent code on backend and front-end,
+                    enjoy benefits of huge community.
+                    I can say only 'go for it'.
+                </div>
+                <div class="map-col" data-target="1202">
+                    Ruby <br />
+                    Ruby developers that I know divide into two main groups (not exclusive): startupers and teenagers. Not sure what's the reason for that,
+                    but since I'm neither, I don't feel eligable to try this language and have elaborate opinion on it.
+                </div>
+            </div>
+        </div>
+
+        <!-- serious backend -->
+        <div class="row5-1122 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom"></div>
+                <div class="map-lines bottom right"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+
+            <div class="map-row map-content-row" data-row="5">
+                <div class="map-col map-col-half">
+                    Play (Java/Scala) <br />
+                    This framework enables really fast RESTful API development, built-in Actors, providing the concurrency support using Akka and optional, lightweight server netty
+                    for fast deployment and automatic reloads with errors displaying directly in the web browser (in the dev mode) and displaying the error id in the production.
+                    It also has out-of-the-box ORM ebean, which can automativally generate the evolutions for relational database directly from the Model (but of course you might choose not to use it).
+                </div>
+                <div class="map-col map-col-half" >
+                    Spring Boot (Java)<br />
+                    Spring Boot makes it easy to create stand-alone, production-grade Spring based app. I wish it also helped with debugging. Somehow I always struggle with Spring's error messeges containing meaningless stacktraces, so make sure you have one of understanding it magicians in a team (or that noone makes any mistakes).
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row2-0 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom left"></div>
+                <div class="map-lines bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left right"></div>
+                <div class="map-lines right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="2">
+                <div class="map-col">
+                    Most popular: <img class="image-logo" src="{{ site.url }}/assets/map-images/java.jpg"/> and C/C++
+                </div>
+                <div class="map-col" >
+                    Focused on single platform:
+                    <img class="image-logo" src="{{ site.url }}/assets/map-images/dotnet.png"/> for Windows, <img class="image-logo" src="{{ site.url }}/assets/map-images/swift.png"/>Swift and Objective-C for Mac
+                </div>
+                <div class="map-col">
+                    Bunch of other languages ;)
+                </div>
+
+            </div>
+        </div>
+        <div class="row3-0 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines-obligatory bottom left"></div>
+                <div class="map-lines-obligatory bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines-obligatory left right"></div>
+                <div class="map-lines-obligatory right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="3">
+                <div class="map-col col0" data-target="00">
+                    <img src="{{ site.url }}/assets/map-images/html5.png" alt="HTML5 logo" class="image-logo"/>
+                    Create a structure for your website. You might also consider using some markup languages (but in this case I wouldn't).
+                </div>
+                <div class="map-col col1" data-target="01">
+                    <img src="{{ site.url }}/assets/map-images/CSS3.png" alt="css3 logo" class="image-logo"/>
+                    Use CSS to make your page pretty! It is very simple, yet for development anything bigger then one-pager you should consider using pre-compilers. They turn out to be really handy!
+                </div>
+                <div class="map-col col2" data-target="02">
+                    <img src="{{ site.url }}/assets/map-images/js.png" alt="JS logo" class="image-logo"/>
+                    In the world of single-page applications and interactive apps javascript needs to handle much more than a blinking banner. If you expect complexity, remove jquery from your bower file, cause it's time to bring out the big guns.
+                </div>
+            </div>
+        </div>
+        <div class="row3-2 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom"></div>
+                <div class="map-lines bottom right"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left right"></div>
+                <div class="map-lines right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="3">
+                <div class="map-col col0" data-target="220">
+                    You expect typical data usage with entity-to-entity associations. Relational databases are the most common ones.
+                    If you don't know which one you should choose, I'd bet on this one.
+                </div>
+                <div class="map-col col1" data-target="1">
+                    You're planning to create social media or other network.
+                    Graph databases are the networks of nodes,
+                    which will work well wherever you need to find relations between objects or shortest paths between them. They don't support SQL.
+                </div>
+                <div class="map-col col2" data-target="2">
+                    You need to store files and big amounts of raw data, without multiple relationships.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row4-00 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines-optional left"></div>
+                <div class="map-lines-optional"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="4">
+                <div class="map-col-single map-col">
+                    <img src="{{ site.url }}/assets/map-images/haml.png" alt="Haml logo" class="image-logo"/>
+                    <img src="{{ site.url }}/assets/map-images/jade.png" alt="Jade logo" class="image-logo"/><br />
+                    Haml and Jade (which actually derived from Haml) are markup languages, simplifying HTML syntax and replacing inline page template engines. When templates are useful? Whenever you want to display some server-calculated values inside of well formatted HTML. For example if you want to send a nicely formatted email to many users and but include some personalised data - like their username or purchases - use their name and list of their purchases - you might want to use templates. <br/>
+                    There are rumors that Haml and Jade can be useful on some other occasions - I haven't been given to experience that, yet.
+                </div>
+
+            </div>
+        </div>
+        <div class="row4-01 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines-optional right"></div>
+                <div class="map-lines-optional"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="4">
+                <div class="map-col-single map-col" data-target="0">
+                    <img src="{{ site.url }}/assets/map-images/sass.svg" alt="Sass logo" class="image-logo"/>
+                    <img src="{{ site.url }}/assets/map-images/less.png" alt="Less logo" class="image-logo"/> <br />
+
+                    <p>Pre-processors will pay off especially in big projects, where you want to create the common base
+                        for the stylesheets and support the code for a long, long time.
+                        Thanks to them, you will be able to extend the css classes and define some logic (make
+                        background darker if font color is light), which will save you time not only on development but
+                        also on any future changes.
+
+                        There are plenty of tools, like Compass, supporting life reloading of css, whenever you change
+                        something in sass or less.
+
+                        Which one to choose? For my website I used sass, because of (<a href="https://css-tricks.com/sass-vs-less/"> this article </a>).
+                    </p>                </div>
+            </div>
+        </div>
+
+        <div class="row4-02 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom"></div>
+                <div class="map-lines bottom right"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines-optional right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="4">
+                <div class="map-col col0" data-target="020">
+                    JS Frameworks
+                </div>
+                <div class="map-col col1" data-target="021">
+                    JS Pre-processors
+                </div>
+            </div>
+        </div>
+
+        <div class="row5-022 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines-optional bottom"></div>
+                <div class="map-lines-optional bottom right"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines-optional left"></div>
+                <div class="map-lines-optional right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="5">
+                <div class="map-col-half map-col">
+                    <img src="{{ site.url }}/assets/map-images/coffeescript.png" alt="Sass logo" class="image-logo logo-small"/>
+
+                    <p><a href="http://coffeescript.org/">Coffeescript</a> is a simple pre-processor, which enables you
+                        to write js code faster. Instead of curved brackets you use proper indentation, you can omit
+                        'function' and 'return' statements and easily iterate ever an array.
+                        99% times it'll save you from some small work, but when you'll have problem with it, you might
+                        struggle for ages to spot it.
+                        Anyway, statistically everyone in my team loved it. I was a statistical error.</p>
+                </div>
+                <div class="map-col-half map-col">
+                    <img src="{{ site.url }}/assets/map-images/typescript.png" alt="Typescript logo" class="image-logo logo-small"/>
+
+                    <p>I understand that immutability for some people can seem over the top, but strong typing is a
+                        baseline. So how to live in the world of JavaScript?
+                        <br/>
+                        <a href="http://www.typescriptlang.org/" >Typescript</a> is a typed
+                        superset of JavaScript that compiles to plain JavaScript.
+                        How cool is that? And I'm not done yet. It also adds classes, constructors, interfaces... if you
+                        like that stuff and rather handle compile-time errors, that's good stuff for you.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row5-020 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom left"></div>
+                <div class="map-lines bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left right"></div>
+                <div class="map-lines right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="5">
+                <div class="map-col col0" data-target="0200">
+                    <img src="{{ site.url }}/assets/map-images/angular.png" alt="Angular logo" class="image-logo"/>
+                </div>
+                <div class="map-col col1" data-target="0201">
+                    <img src="{{ site.url }}/assets/map-images/react.png" alt="React logo" class="image-logo"/>
+                </div>
+                <div class="map-col col2" data-target="0202">
+                    <img src="{{ site.url }}/assets/map-images/backbone.png" alt="Backbone logo" class="image-logo"/>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row6-0200 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="6">
+                <div class="map-col map-col-single">
+                    Angular used to be my favourite one. And it's very clear why - with AngularJs you write services and controllers - just like on the backend! It's especially good for data binding - you can easily display the variables and even loop through the arrays as well as use conditional statements connecting your js-code to the interface. That comes with a price - it's quite resource-consuming, but unless you will use hundreds of permanently watched objects, you shouldn't worry too much. Remember that Angular 2.0 will not be backward compatible! <br/>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row6-0201 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines right"></div>
+                <div class="map-lines"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="6">
+                <div class="map-col map-col-single">
+                    <p>I struggle to trust anything that mixes the syntax with HTML, but <a
+                            href="https://facebook.github.io/react/">ReactJs'</a>
+                        community grows incredibly fast and it's very improbable that so many smart people are wrong -
+                        so let's have a closer look.
+                        With React, instead of separating the technologies (HTML, CSS and JS), we separate whole logical
+                        entities instead, grouping it and encapsulating inside components.
+                        There is no good, old MVC, but an architecture called Flux (or going further Reflux or Redux).
+                        Zuckerberg uses Flux, so this is what I will discuss.
+                        User and API's communicate with Actions - those are simple helpers passing info to dispatchers.
+                        Dispatchers broadcast whatever is needed to registered callbacks (stored in Store) which can
+                        communicate back with the view. That's not the place to go into the details, but rather to get
+                        your attention. If it got also your interest, you might want to read<a
+                                href="https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture"
+                                class="enlargeonhover"> this</a> <br/>
+                        Ah, and worth mentioning - React doesn't have it's own router. You might use a third-party
+                        module for that, though.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row6-0202 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines"></div>
+                <div class="map-lines right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="6">
+                <div class="map-col map-col-single">
+                    Backbone gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface. And that was copied directly from Backbone's website, because all I know about this framework is that is used to be
+                    very popular, but seems to be losing attention now.
+                </div>
+            </div>
+        </div>
+
+        <div class="row4-220 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines left bottom"></div>
+                <div class="map-lines bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left right"></div>
+                <div class="map-lines right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="5">
+                <div class="map-col" data-target="0">
+                    <img src="{{ site.url }}/assets/map-images/MySQL.png" class="image-logo"/>
+                    MySQL is extremely popular, open-source solution developed by Oracle.
+                </div>
+                <div class="map-col" data-target="0">
+                    <img src="{{ site.url }}/assets/map-images/oracledb.png" class="image-logo"/>
+                    Oracle database which is mostly corporate solution.
+
+                </div>
+                <div class="map-col" data-target="0">
+                    <img src="{{ site.url }}/assets/map-images/postgres.png" class="image-logo"/>
+                    Postgres is a powerful, reliable and free database. If I were you I'd use it.
+                </div>
+            </div>
+        </div>
+        <div class="row4-1 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom right"></div>
+                <div class="map-lines bottom"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="4">
+                <div class="map-col">
+                    <img src="{{ site.url }}/assets/map-images/neo4j.png" class="image-logo"/>
+                    Open source, well developed solution, free for private use. It works very well with Spring Data Neo4j
+                    and enables POJO based development.
+                </div>
+                <div class="map-col">
+                    <img src="{{ site.url }}/assets/map-images/orient.png" class="image-logo"/>
+                    Document Distributed Graph Database, open source and free for commercial use with out of the box REST api and simple browser.
+                    I must say I still liked Neo4j slightly more, but licence is much more business friendly here.
+
+                </div>
+            </div>
+        </div>
+        <div class="row4-2 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom"></div>
+                <div class="map-lines bottom right"></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="4">
+                <div class="map-col">
+                    BigTable is a compressed, high performance data storage available as a Google service suitable for huge volumes of data.
+                </div>
+
+                <div class="map-col" data-target="2">
+                    <img src="{{ site.url }}/assets/map-images/mongo.png" class="image-logo"/>
+                    Mongo db means cheaper inserts with lower transactional security. If you need to store lots of the data, which do not require extra security nor structure (there is no schema!), that's the way to go.
+                </div>
+            </div>
+        </div>
+        <div class="row5-0 full-row">
+            <div class="map-lines-row">
+                <div class="map-lines bottom left"></div>
+                <div class="map-lines bottom "></div>
+            </div>
+            <div class="map-lines-row">
+                <div class="map-lines left"></div>
+                <div class="map-lines right"></div>
+            </div>
+            <div class="map-row map-content-row" data-row="5">
+
+                <div class="map-col col1" data-target="1">
+                    Postgres
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="map-bottom"></div>
+    <!-- Legend -->
+    <div class="legend-wrapper">
+        <hr />
+        Legend:
+        <div class="legend">
+            <span class="map-lines-optional bottom left right top">Optional</span>
+            <span class="map-lines bottom left right top">Pick one</span>
+            <span class="map-lines-obligatory bottom left right top">Use all</span>
+        </div>
+    </div>
+
+</div>
+

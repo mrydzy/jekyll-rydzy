@@ -346,6 +346,15 @@ window._foodMarkers = [
     "food": "Camembert Bagel & Omlet with Chorizzo",
     "photoSrc": "castor.JPG",
     "description":"The food was exactly as on the photo - simply good. But what I want to mention are the drinks! Marek had some coffee which actually is not coffee, and I had... Mango Chai! A combination of tea, foamed milk and mango, which was literally one of the best things I've ever drank!"},
+  { "id":"beer_house",
+    "name":"Beer House",
+    "address": "ul. Floriańska 43",
+    "cost": "12zł",
+    "lat": 50.0640228,
+    "lng": 19.9410359,
+    "food": "English breakfast, eggs benedict",
+    "photoSrc": "beer_house.JPG",
+    "description":"So after entering we've learnt that actually eggs benedict (or plenty other options) we can get for free with a juice. Marek still proffered an English breakfast. Probably noone else picks to pay, because my free option was acceptable, his breakfast was totally not fresh. Not the best choice."},
 
 
 

@@ -343,7 +343,15 @@ window._foodMarkers = [
     "food": "Camembert Bagel & Omlet with Chorizzo",
     "photoSrc": "castor.JPG",
     "description":"Jedzenie było takie jak na zdjęciu - OK. Warto jednak opowiedzieć o napojach! Marek wziął kawę bez kawy, a ja trafiłam na Mango Chai - połączenie herbaty, spienionego mlega i mango, które było jedną z najlepszych rzeczy jakich kiedykolwiek próbowałam! Polecam!"},
+  { "id":"beer_house",
+    "name":"Beer House",
+    "address": "ul. Floriańska 43",
+    "cost": "12zł",
+    "lat": 50.0640228,
+    "lng": 19.9410359,
+    "food": "Śniadanie angielskie, jajka w koszulkach",
+    "photoSrc": "beer_house.JPG",
+    "description":"Okazało się, że jajka w koszulkach (jak i kilka innych opcji) jest gratis przy zakupie soku. Jedzenie wyglądało dobrze, smakowało średnio. Za to Marek się uparł na śniadanie angielskie - chyba nikt inny go nie bierze (trzeba było za nie płacić) przez co wszystko było nie świeże. Nie polecam!"},
 
-
-
+  
 ];
