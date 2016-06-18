@@ -355,6 +355,15 @@ window._foodMarkers = [
     "food": "English breakfast, eggs benedict",
     "photoSrc": "beer_house.JPG",
     "description":"So after entering we've learnt that actually eggs benedict (or plenty other options) we can get for free with a juice. Marek still proffered an English breakfast. Probably noone else picks to pay, because my free option was acceptable, his breakfast was totally not fresh. Not the best choice."},
+  { "id":"moja",
+    "name":"Mo-ja Cafe & Bistron",
+    "address": "ul. Starowiślna 14",
+    "cost": "17zł",
+    "lat": 50.03340614463831,
+    "lng": 19.94450391313478,
+    "food": "Eggs on the toasts, Breakfest burger",
+    "photoSrc": "mo-ja.jpg",
+    "description":"Cosy place with the menu that makes you want to come back next day. There's something for big hunger, small hunger and even the option to go extravagant. I can't wait to go back!"},
 
 
 

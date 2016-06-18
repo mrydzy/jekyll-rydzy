@@ -39,8 +39,9 @@ window._foodMarkers = [
     "cost": "około 20zł",
     "lat": 50.0514727,
     "lng": 19.9455647,
-    "food": "Letnie jajka w koszulkach ze szparagami",
-    "description":"Do Novej nie mogłam się przez długi czas przekonać - wydawała mi się wielkim miejscem dla burżujów bez fantazji. Znajomi mnie tam kiedyś wyciągnęli i od tego czasu nawet lubię to miejsce - przyszedł więc i czas na śniadanie. Jadłam jajka w koszulkach podane na pełnoziarnistej bułce ze szpinakiem, szparagami grillowanymi w szynce parmeńskiej i sosem holenderskim. Szynki parmeńskiej niestety było tylko symbolicznie, za to sos holenderski - pychota! Marek jadł jakąś kanapkę, jednak była na tyle nie zapadająca w pamięć, że nie możemy sobie jej przypomnieć."},
+    "photoSrc": "nova.jpg",
+    "food": "Croissanty / Polskie",
+    "description":"Do Novej nie mogłam się przez długi czas przekonać - wydawała mi się wielkim miejscem dla burżujów bez fantazji. Znajomi mnie tam kiedyś wyciągnęli i od tego czasu nawet lubię to miejsce - przyszedł więc i czas na śniadanie. W tym roku nie ma już niestety letniego śniadania ze szparagami, za to croissanty z pesto szpinakowym robią robotę."},
   { "id":"welldone",
     "name":"Well done",
     "address": "ul.Mostowa 2",
@@ -352,6 +353,14 @@ window._foodMarkers = [
     "food": "Śniadanie angielskie, jajka w koszulkach",
     "photoSrc": "beer_house.JPG",
     "description":"Okazało się, że jajka w koszulkach (jak i kilka innych opcji) jest gratis przy zakupie soku. Jedzenie wyglądało dobrze, smakowało średnio. Za to Marek się uparł na śniadanie angielskie - chyba nikt inny go nie bierze (trzeba było za nie płacić) przez co wszystko było nie świeże. Nie polecam!"},
-
+  { "id":"moja",
+    "name":"Mo-ja Cafe & Bistron",
+    "address": "ul. Starowiślna 14",
+    "cost": "17zł",
+    "lat": 50.03340614463831,
+    "lng": 19.94450391313478,
+    "food": "Jajka na tostach, Burger śniadaniowy",
+    "photoSrc": "mo-ja.jpg",
+    "description":"Przyjemne miejsce, z takim menu że już nie mogę się doczekać kolejnego śniadania. Opcje na każdy głód i kieszeń, a nawet opcja na szaleńczą ekstrawagancję."},
   
 ];

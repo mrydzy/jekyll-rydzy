@@ -1,0 +1,10 @@
+---
+lang: pl
+layout: post
+title:  "Zawsze mamy gorzej"
+date:   2015-08-12 17:29:03 +0100
+categories: luzne
+image: "http://www.niechzyjeemma.pl/img/niech-zyje.svg"
+alt: "Niech żyje Emma"
+short_desc: "Lubimy szukać wymówek. Fajnie poznać kogoś, kto po prostu spełnia marzenia."
+---
