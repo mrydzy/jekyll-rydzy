@@ -19,8 +19,12 @@ layout: default
               {{post.short_desc}}
             {% else %}
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              {{post.short_desc}}
-            {% endif %}
+
+              {% if post.image %}
+              <img src="{{post.image}}" alt="{{post.alt}}"/>
+                {% endif %}
+              {% endif %}
+            {{post.short_desc}}
           </div>
         </div>
     {% endfor %}
